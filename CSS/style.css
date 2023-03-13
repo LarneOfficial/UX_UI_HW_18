@@ -1,0 +1,51 @@
+header{
+    background-color: #6D6875;
+    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    color: #FFF5F3;
+    font-size: 28;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+nav{
+    margin-left: 11%;
+    padding: 1%;
+}
+ul{
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffe3e0;
+    color: #3b252c;
+    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.heroImg{
+    height: 500px;
+    padding: 25px;
+    background-color: #6D6875;
+    color: #FFF5F3;
+    padding-top: 10%;
+}
+.content{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    font-size: 32;
+}
+footer{
+    background-color: #6D6875;
+    color: #FFF5F3;
+    font-size: 28;
+    text-align: center;
+    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
