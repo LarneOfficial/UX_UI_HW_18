@@ -55,10 +55,36 @@ section{
 }
 .flexContainer{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: stretch;
     font-family: 'Nunito', sans-serif;
+    gap: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 28;
+}
+#box1{
+    border: 3px solid #6D6875;
+    padding: 25px;
+    background-color: #FFF5F3;
+}
+#box2{
+    border: 3px solid #6D6875;
+    padding: 25px;
+    background-color: #FFF5F3;
+}
+#box3{
+    border: 3px solid #6D6875;
+    padding: 25px;
+    background-color: #FFF5F3;
+}
+#element{
+    box-sizing: border-box;
+    border: 3px #6D6875;
+    padding: 5px;
 }
 .flexItem{
     margin: 5%;
@@ -81,6 +107,8 @@ section{
     display: grid;
     grid-template-areas: 'saIArea saArea' 'echoIArea echoArea';
     grid-template-rows: auto auto auto auto;
+    column-gap: 5%;
+    row-gap: 5%;
 }
 #viewallprojects{
     font-size: 28;
