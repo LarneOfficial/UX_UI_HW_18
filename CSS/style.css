@@ -1,6 +1,6 @@
 header{
     background-color: #6D6875;
-    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
     color: #FFF5F3;
     font-size: 28;
 }
@@ -23,7 +23,7 @@ button{
     margin-right: 50px;
     background-color: #ffe3e0;
     color: #3b252c;
-    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
 .heroImg{
@@ -37,7 +37,7 @@ button{
     width: 500px;
     margin: 0 auto;
     text-align: center;
-    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 32;
 }
 footer{
@@ -45,7 +45,48 @@ footer{
     color: #FFF5F3;
     font-size: 28;
     text-align: center;
-    font-family: "Libre Baskerville", Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Nunito', sans-serif;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+section{
+    background-color: #ffe3e0;
+    padding: 5%;
+}
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+.flexItem{
+    margin: 5%;
+}
+#saRedesignImage{
+    grid-area: saIArea;
+}
+#saRedesign{
+    grid-area: saArea;
+    font-family: 'Nunito', sans-serif;
+}
+#echoImage{
+    grid-area: echoIArea;
+}
+#echo{
+    grid-area: echoArea;
+    font-family: 'Nunito', sans-serif;
+}
+.workGrid{
+    display: grid;
+    grid-template-areas: 'saIArea saArea' 'echoIArea echoArea';
+    grid-template-rows: auto auto auto auto;
+}
+#viewallprojects{
+    font-size: 28;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+@media only screen and (max-width: 800px){
+    
 }
